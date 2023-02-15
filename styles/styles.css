@@ -6,19 +6,21 @@ html {
 }
 
 div.nav {
-    height: 100%;
-    width: 200px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding-top: 40px;
+    float: left;
+    width: 20%;
 }
 
 body {
-    width: 600px;
-    margin: 0 auto;
-    max-width: fit-content;
-    padding: 0 20px 20px 20px;
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, body {
+      width: 100%;
+    }
 }
 
 img {
