@@ -22,6 +22,10 @@ a {
 }
 
 div.nav {
-    display: flex;
-    float: left;
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
 }
