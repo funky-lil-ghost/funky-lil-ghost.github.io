@@ -13,6 +13,7 @@ body {
     color:azure;
     width: 600px;
     margin: 0 auto;
+    max-width: fit-content;
     padding: 0 20px 20px 20px;
 }
 
@@ -23,4 +24,9 @@ img {
 
 a {
     color: mediumvioletred;
+}
+
+div.nav {
+    display: flex;
+    float:left;
 }
