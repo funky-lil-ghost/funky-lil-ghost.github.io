@@ -5,6 +5,15 @@ html {
     color:azure;
 }
 
+div.nav {
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+}
+
 body {
     width: 600px;
     margin: 0 auto;
@@ -19,13 +28,4 @@ img {
 
 a {
     color: rgb(245, 93, 190);
-}
-
-div.nav {
-    height: 100%;
-    width: 200px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding-top: 40px;
 }
