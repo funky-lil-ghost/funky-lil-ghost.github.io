@@ -33,5 +33,15 @@ function setUserName() {
     setUserName();
   };
 
+function read(textFile){
+    var xhr=new XMLHttpRequest;
+    xhr.open('GET',textFile);
+    xhr.onload=show;
+    xhr.send()
+}
 
-  
+function show(){
+    var pre=document.createElement('pre');
+    pre.textContent=this.response;
+    document.body.appendChild(pre)
+}
