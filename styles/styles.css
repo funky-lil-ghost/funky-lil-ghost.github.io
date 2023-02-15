@@ -22,6 +22,6 @@ a {
 }
 
 div.nav {
-    display: flex;
-    float:left;
+    left: 25%;
+    position: fixed;
 }
