@@ -2,6 +2,7 @@ html {
     background-color: rgb(17, 30, 30);
     font-size: medium;
     font-family: "Roboto Mono", monospace;
+    color:azure;
 }
 
 h1 {
@@ -10,7 +11,6 @@ h1 {
 }
 
 body {
-    color:azure;
     width: 600px;
     margin: 0 auto;
     max-width: fit-content;
@@ -23,7 +23,7 @@ img {
 }
 
 a {
-    color: mediumvioletred;
+    color: rgb(245, 93, 190);
 }
 
 div.nav {
