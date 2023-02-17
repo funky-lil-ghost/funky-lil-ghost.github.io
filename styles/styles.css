@@ -69,11 +69,10 @@ div.box {
   
   div.rainbow-header {
     margin-top: 28px;
-    justify-content: center;
   }
   
   div.box-text {
-    font-size: 19px;
+    font-size: 22px;
     position: fixed;
     margin-left: 20px;
     top: 0;
