@@ -62,7 +62,7 @@ button {
   }
 
 button:hover {
-    font-style: underline;
+    text-decoration: underline;
 }
 
 h1, h2 {
