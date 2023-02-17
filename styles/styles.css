@@ -3,6 +3,7 @@ html {
     font-size: 14px;
     font-family: "Roboto Mono", monospace;
     color:azure;
+    scrollbar-width: none;
 }
 
 @media (min-width: 576px) {
@@ -12,7 +13,7 @@ html {
     }
 
     body {
-        width: 100%;
+        width: 97%;
         margin: auto;
     }
 }
