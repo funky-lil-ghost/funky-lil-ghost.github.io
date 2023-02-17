@@ -1,16 +1,24 @@
 @font-face {
     font-family: 'pxplus_ibm_vga8regular';
-    src: url(https://funky-lil-ghost.github.io/fonts/pxplus_ibm_vga8-webfont.woff2) format('woff2'),
-         url(https://funky-lil-ghost.github.io/fonts/pxplus_ibm_vga8-webfont.woff) format('woff');
+    src: url(https://funky-lil-ghost.github.io/fonts/IBM_VGA8/pxplus_ibm_vga8-webfont.woff2) format('woff2'),
+         url(https://funky-lil-ghost.github.io/fonts/IBM_VGA8/pxplus_ibm_vga8-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dejavu_sans_monobook';
+    src: url(https://funky-lil-ghost.github.io/fonts/Deja-Vu-Sans/deja_vu_sans_mono-webfont.woff2) format('woff2'),
+         url(https://funky-lil-ghost.github.io/fonts/Deja-Vu-Sans/deja_vu_sans_mono-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 html {
-    background-color: rgb(11, 43, 43);
+    background-color: #000000;
     font-size: medium;
-    font-family: "pxplus_ibm_vga8regular", monospace;
-    color:#fff2e6;
+    font-family: 'dejavu_sans_monobook', monospace;
+    color:#ffffff;
     scrollbar-width: none;
 }
 
@@ -46,6 +54,47 @@ html {
     }
 }
 
-a {
-    color: rgb(245, 93, 190);
+h1, h2 {
+    font-family: 'pxplus_ibm_vga8regular'; monospace;
 }
+
+a {
+    color: #B19EFF;
+}
+
+div.box {
+    width: 100%;
+    height: 5px;
+  }
+  
+  div.red {
+    background-color: #BC6B52;
+  }
+  
+  div.orange {
+    background-color: #F5AB97;
+  }
+  
+  div.grey {
+    background-color: #E0E0DF;
+  }
+  
+  div.yellow {
+    background-color: #FEFF7C;
+  }
+  
+  div.green {
+    background-color: #DAFF9F;
+  }
+  
+  div.blue {
+    background-color: #A9F2FF;
+  }
+  
+  div.purple {
+    background-color: #AF9CFF;
+  }
+  
+  div.indigo {
+    background-color: #6C56F5;
+  }
