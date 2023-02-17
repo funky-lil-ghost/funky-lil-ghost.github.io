@@ -12,9 +12,8 @@ myImage.onclick = () => {
 let myButton = document.querySelector("button");
 
 function wait_for_heading () {
-  const el = document.querySelector("h1");
 
-  if (el.length) {
+  if ((document.querySelector("h1")).length) {
     let myHeading = document.querySelector("h1");
 
     if (!localStorage.getItem("name")) {
@@ -23,7 +22,7 @@ function wait_for_heading () {
       const storedName = localStorage.getItem("name");
       myHeading.textContent = `hi ${storedName}`;
     }
-    
+
   } else {
     setTimeout(wait_for_heading, 300); // try again in 300 milliseconds
   }
