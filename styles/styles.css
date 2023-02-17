@@ -1,8 +1,16 @@
+@font-face {
+    font-family: 'pxplus_ibm_vga8regular';
+    src: url(https://funky-lil-ghost.github.io/fonts/pxplus_ibm_vga8-webfont.woff2) format('woff2'),
+         url(https://funky-lil-ghost.github.io/fonts/pxplus_ibm_vga8-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     background-color: rgb(11, 43, 43);
     font-size: 14px;
-    font-family: "Roboto Mono", monospace;
-    color:azure;
+    font-family: "pxplus_ibm_vga8regular", monospace;
+    color:#fff2e6;
     scrollbar-width: none;
 }
 
