@@ -55,7 +55,7 @@ html {
 }
 
 h1, h2 {
-    font-family: 'pxplus_ibm_vga8regular'; monospace;
+    font-family: 'pxplus_ibm_vga8regular', monospace;
 }
 
 a {
