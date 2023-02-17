@@ -75,9 +75,9 @@ div.box {
   div.box-text {
     font-size: 19px;
     position: fixed;
-    width: 50px;
-    margin-left: 25%;
+    margin-left: 20px;
     top: 0;
+    color:#000000;
   }
 
   div.red {
