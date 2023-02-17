@@ -10,7 +10,27 @@ myImage.onclick = () => {
 };
 
 let myButton = document.querySelector("button");
-let myHeading = await document.querySelector("h1");
+
+function wait_for_heading () {
+  const el = document.querySelector("h1");
+
+  if (el.length) {
+    let myHeading = document.querySelector("h1");
+
+    if (!localStorage.getItem("name")) {
+      setUserName();
+    } else {
+      const storedName = localStorage.getItem("name");
+      myHeading.textContent = `hi ${storedName}`;
+    }
+    
+  } else {
+    setTimeout(wait_for_heading, 300); // try again in 300 milliseconds
+  }
+}
+
+wait_for_heading();
+
 
 function setUserName() {
     const myName = prompt("hows' ur name, stranger?");
@@ -21,13 +41,6 @@ function setUserName() {
       myHeading.textContent = `hi ${myName}`;
     }
   }
-  
-if (!localStorage.getItem("name")) {
-    setUserName();
-  } else {
-    const storedName = localStorage.getItem("name");
-    myHeading.textContent = `hi ${storedName}`;
-  }  
 
 myButton.onclick = () => {
     setUserName();

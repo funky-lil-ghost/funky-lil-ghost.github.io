@@ -61,12 +61,20 @@ button {
     font-family:'pxplus_ibm_vga8regular', monospace;
   }
 
+button:hover {
+    font-style: underline;
+}
+
 h1, h2 {
     font-family: 'pxplus_ibm_vga8regular', monospace;
 }
 
 a {
     color: #B19EFF;
+}
+
+a:hover {
+    color: #6C56F5;
 }
 
 div.box {
