@@ -54,6 +54,13 @@ html {
     }
 }
 
+button {
+    background-color: transparent;
+    border: none;
+    color: #98E551;
+    font-family:'pxplus_ibm_vga8regular', monospace;
+  }
+
 h1, h2 {
     font-family: 'pxplus_ibm_vga8regular', monospace;
 }
