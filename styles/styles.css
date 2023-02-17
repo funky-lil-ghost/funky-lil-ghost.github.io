@@ -1,29 +1,35 @@
 html {
     background-color: rgb(11, 43, 43);
-    font-size: medium;
+    font-size: 14px;
     font-family: "Roboto Mono", monospace;
     color:azure;
 }
 
-div.nav {
-    height: 100%;
-    width: 200px;
-    position: absolute;
-    left: 0; 
-    top: 0;
-    padding-top: 40px;
+@media (min-width: 576px) {
+    div.nav {
+        width: 100%;
+        margin: auto;
+    }
+
+    body {
+        width: 100%;
+        margin: auto;
+    }
 }
 
-body {
-    width: 600px;
-    margin: 0 auto;
-    max-width: fit-content;
-    padding: 0 20px 20px 20px;
-}
-
-img {
-    display: block;
-    padding-left: 35px;
+@media (min-width: 992px) {
+    div.nav {
+        width: 15%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        padding-top: 20px;
+    }
+    body {
+        width: 60%;
+        margin: 0 auto;
+        padding: 0 20px 20px 20px;
+    }
 }
 
 a {
