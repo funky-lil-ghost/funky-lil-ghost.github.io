@@ -87,7 +87,7 @@ div.box {
   }
   
   div.box-text {
-    font-size: 22px;
+    font-size: 19px;
     position: fixed;
     margin-left: 20px;
     top: 0;
@@ -95,33 +95,33 @@ div.box {
   }
 
   div.red {
-    background-color: #BC6B52;
+    background-color: #793f2a;
   }
   
   div.orange {
-    background-color: #F5AB97;
+    background-color: #9f6350;
   }
   
   div.grey {
-    background-color: #E0E0DF;
+    background-color: #92917a;
   }
   
   div.yellow {
-    background-color: #FEFF7C;
+    background-color: #a2a340;
   }
   
   div.green {
-    background-color: #DAFF9F;
+    background-color: #85a454;
   }
   
   div.blue {
-    background-color: #A9F2FF;
+    background-color: #5b98a3;
   }
   
   div.purple {
-    background-color: #AF9CFF;
+    background-color: #6554a3;
   }
   
   div.indigo {
-    background-color: #6C56F5;
+    background-color: #3e2c9b;
   }
