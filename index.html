@@ -6,10 +6,10 @@
     <link href="styles/styles.css" rel="stylesheet" />
     <title>wowie</title>
   </head>
-  <div w3-include-html="nav.html"></div> 
+  <iframe src="nav.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
   <body>
     <h1>Wowie! This is a heading!</h1>
-    <button>Change user</button>
+    <button>Change user</button><br>
     <img src="images/internet-mania.jpg" alt="internet-mania" width="50%"/>
     <!--To link to a target file in the same directory as the invoking HTML file, just use the filename, e.g. my-image.jpg.
     To reference a file in a subdirectory, write the directory name in front of the path, plus a forward slash, e.g. subdirectory/my-image.jpg.
