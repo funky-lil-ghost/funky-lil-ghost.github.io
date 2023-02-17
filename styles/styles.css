@@ -16,6 +16,10 @@ html {
         width: 97%;
         margin: auto;
     }
+
+    img {
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 992px) {
