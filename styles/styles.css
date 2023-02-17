@@ -67,6 +67,19 @@ div.box {
     height: 5px;
   }
   
+  div.rainbow-header {
+    margin-top: 28px;
+    justify-content: center;
+  }
+  
+  div.box-text {
+    font-size: 19px;
+    position: fixed;
+    width: 50px;
+    margin-left: 25%;
+    top: 0;
+  }
+
   div.red {
     background-color: #BC6B52;
   }
