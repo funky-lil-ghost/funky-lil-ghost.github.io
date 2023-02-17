@@ -29,7 +29,7 @@ html {
     }
 
     body {
-        width: 97%;
+        width: 90%;
         margin: auto;
     }
 
@@ -48,7 +48,7 @@ html {
         padding-top: 20px;
     }
     body {
-        width: 40%;
+        width: 45%;
         margin: 0 auto;
         padding: 0 20px 20px 20px;
     }
@@ -84,6 +84,7 @@ div.box {
   
   div.rainbow-header {
     margin-top: 28px;
+    width:auto;
   }
   
   div.box-text {
