@@ -79,7 +79,9 @@ a:hover {
   color: #6C56F5;
 }
 
-
+iframe {
+  visibility: hidden;
+}
 
 header {
   margin-top: 28px;
