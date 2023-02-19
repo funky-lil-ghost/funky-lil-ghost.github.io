@@ -81,8 +81,15 @@ a:hover {
   
 header {
   margin-top: 28px;
-  font-size: 19px !important;
-  color:#000000 !important;
+  font-size: 19px;
+  color:#000000;
+  position: relative;
+}
+
+h1.header-text {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
   div.box {
