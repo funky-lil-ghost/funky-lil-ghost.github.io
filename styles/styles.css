@@ -22,6 +22,10 @@ html {
   scrollbar-width: none;
 }
 
+body {
+  background-color: #000000;
+}
+
 @media (min-width: 576px) {
   div.nav {
     width: 100%;
