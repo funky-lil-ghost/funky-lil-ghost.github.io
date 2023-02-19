@@ -1,69 +1,82 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link href="styles/styles.css" rel="stylesheet" />
-    <title>wowie</title>
-  </head>
-  <iframe src="nav.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
-  <header>
-    <div id="colorblocks">
-      <div class="box indigo"></div>
-      <div class="box purple"></div>
-      <div class="box blue"></div>
-      <div class="box green"></div>
-      <div class="box yellow"></div>
-      <div class="box grey"></div>
-      <div class="box orange"></div>
-      <div class="box red"></div>
-    </div>
-    <h1 class="header-text">hi</h1>
-  </header>
-  <body>
-    <button>Change user</button><br><br>
-    <img src="images/internet-mania.jpg" alt="internet-mania" width="50%"/>
-    <!--from mozilla dev for reference
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link href="styles/styles.css" rel="stylesheet" />
+  <title>wowie</title>
+</head>
+<iframe src="nav.html"
+  onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
+<header>
+  <div id="colorblocks">
+    <div class="box indigo"></div>
+    <div class="box purple"></div>
+    <div class="box blue"></div>
+    <div class="box green"></div>
+    <div class="box yellow"></div>
+    <div class="box grey"></div>
+    <div class="box orange"></div>
+    <div class="box red"></div>
+  </div>
+  <h1 class="header-text">hi</h1>
+</header>
+
+<body>
+  <button>Change user</button><br><br>
+  <img src="images/internet-mania.jpg" alt="internet-mania" width="50%" />
+  <!--from mozilla dev for reference
     To link to a target file in the same directory as the invoking HTML file, just use the filename, e.g. my-image.jpg.
     To reference a file in a subdirectory, write the directory name in front of the path, plus a forward slash, e.g. subdirectory/my-image.jpg.
     To link to a target file in the directory above the invoking HTML file, write two dots. So for example, if index.html was inside a subfolder of test-site and my-image.jpg was inside test-site, you could reference my-image.jpg from index.html using ../my-image.jpg.
     You can combine these as much as you like, for example ../subdirectory/another-subdirectory/my-image.jpg.-->
-    <p>y o hello! this is my webbed site page on the world wide inter webs. i m here to re invent the wheel (but worse)\n I have coool thingsd such as:</p>
-    <ul>list
-        <li>i am a list item i love long walks on the beachs  and robbery</li>
-        <li>i am anoher list item!!! i am <span style="color:rgb(132, 239, 239)">hatsune mike</span></li>
-    </ul>
-    <p>ok thast enough list. howe about a f<a href="https://anagora.org/link">link</a>. alright thts all i got for now</p>
-    <h2>todolist:</h2>
-    <ul>
-      <li><s>use jekyll to make site more. usable for me. yes (like blog and with pages etc()</s>
-        <ul>
-          <li>not. looked into it, not interested in jekyll becase i am ful of hubris. i will make my own janky websitio for fun and profit (however no profit)</li>
-        </ul>
-      </li>
-      <li>what was that site i saw earlier? the one that like syncs ur socials to ur personal site. that one. look a t it. <s>haha tit</s></li>
-      <li>figure put internal linkimg like <a href="https://dreamwiki.sixey.es/welcome.dream/">dreamwiki</a> asnd obsi
-        <ul>
-          <li>oh bouy this s gonna be. interestihn. wohhh bouy.</li>
-          <li>ok i looked at <a href="https://www.reddit.com/r/webdev/comments/b2tffj/how_to_create_subpages_on_github_for_my_personal/">this reddit post</a> so i can try making sub pages. will return with results momentarily</li>
-          <li>wowie!! <a href="https://funky-lil-ghost.github.io/posts/">another page!</a></li>
-          <li>and now i have andded a navigacion thingsy. at the top. although he is meant to be at the side.. iwill fix this later</li>
-          <li>lied..i didnot fixed this later. fixed it now</li>
-        </ul>
-      </li>
-      <li><b>need a way to quickly change nav without going to each indivisual page</b></li>
+  <p>y o hello! this is my webbed site page on the world wide inter webs. i m here to re invent the wheel (but worse)\n
+    I have coool thingsd such as:</p>
+  <ul>list
+    <li>i am a list item i love long walks on the beachs and robbery</li>
+    <li>i am anoher list item!!! i am <span style="color:rgb(132, 239, 239)">hatsune mike</span></li>
+  </ul>
+  <p>ok thast enough list. howe about a f<a href="https://anagora.org/link">link</a>. alright thts all i got for now</p>
+  <h2>todolist:</h2>
+  <ul>
+    <li><s>use jekyll to make site more. usable for me. yes (like blog and with pages etc()</s>
       <ul>
-        <li>ohf my god. . oh muhy fuking god thank christ. https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ and by thnnk christ i mean thank helen from this article. its not perfect but it'll do for now</li>
+        <li>not. looked into it, not interested in jekyll becase i am ful of hubris. i will make my own janky websitio
+          for fun and profit (however no profit)</li>
       </ul>
-      <li>oh fgod oh no i broke it</li>
-      <li>yikes</li>
-      <li>fix that later.,.,.....</li>
-      <li>update: fixed it. no longer broke</li>
-      <li>update: made site responsive so its not shit on mobile yippee</li>
-      <li>jkldfasghhkjfhkjfgahfdsj. >:(</li>
-      <li>dont fuckjking like javascript .he pains me</li>
-      <li>fix the fickign. header on mobile sometime https://stackoverflow.com/questions/2941189/how-to-overlay-one-div-over-another-div</li>
+    </li>
+    <li>what was that site i saw earlier? the one that like syncs ur socials to ur personal site. that one. look a t it.
+      <s>haha tit</s></li>
+    <li>figure put internal linkimg like <a href="https://dreamwiki.sixey.es/welcome.dream/">dreamwiki</a> asnd obsi
+      <ul>
+        <li>oh bouy this s gonna be. interestihn. wohhh bouy.</li>
+        <li>ok i looked at <a
+            href="https://www.reddit.com/r/webdev/comments/b2tffj/how_to_create_subpages_on_github_for_my_personal/">this
+            reddit post</a> so i can try making sub pages. will return with results momentarily</li>
+        <li>wowie!! <a href="https://funky-lil-ghost.github.io/posts/">another page!</a></li>
+        <li>and now i have andded a navigacion thingsy. at the top. although he is meant to be at the side.. iwill fix
+          this later</li>
+        <li>lied..i didnot fixed this later. fixed it now</li>
+      </ul>
+    </li>
+    <li><b>need a way to quickly change nav without going to each indivisual page</b></li>
+    <ul>
+      <li>ohf my god. . oh muhy fuking god thank christ.
+        https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ and by thnnk christ i mean thank helen from
+        this article. its not perfect but it'll do for now</li>
     </ul>
+    <li>oh fgod oh no i broke it</li>
+    <li>yikes</li>
+    <li>fix that later.,.,.....</li>
+    <li>update: fixed it. no longer broke</li>
+    <li>update: made site responsive so its not shit on mobile yippee</li>
+    <li>jkldfasghhkjfhkjfgahfdsj. >:(</li>
+    <li>dont fuckjking like javascript .he pains me</li>
+    <li>fix the fickign. header on mobile sometime
+      https://stackoverflow.com/questions/2941189/how-to-overlay-one-div-over-another-div</li>
+  </ul>
   <script src="scripts/main.js"></script>
-  </body>
+</body>
+
 </html>

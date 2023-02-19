@@ -1,88 +1,90 @@
 @font-face {
-    font-family: 'pxplus_ibm_vga8regular';
-    src: url(https://funky-lil-ghost.github.io/fonts/IBM_VGA8/pxplus_ibm_vga8-webfont.woff2) format('woff2'),
-         url(https://funky-lil-ghost.github.io/fonts/IBM_VGA8/pxplus_ibm_vga8-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'pxplus_ibm_vga8regular';
+  src: url(https://funky-lil-ghost.github.io/fonts/IBM_VGA8/pxplus_ibm_vga8-webfont.woff2) format('woff2'),
+    url(https://funky-lil-ghost.github.io/fonts/IBM_VGA8/pxplus_ibm_vga8-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'dejavu_sans_monobook';
-    src: url(https://funky-lil-ghost.github.io/fonts/Deja-Vu-Sans/deja_vu_sans_mono-webfont.woff2) format('woff2'),
-         url(https://funky-lil-ghost.github.io/fonts/Deja-Vu-Sans/deja_vu_sans_mono-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'dejavu_sans_monobook';
+  src: url(https://funky-lil-ghost.github.io/fonts/Deja-Vu-Sans/deja_vu_sans_mono-webfont.woff2) format('woff2'),
+    url(https://funky-lil-ghost.github.io/fonts/Deja-Vu-Sans/deja_vu_sans_mono-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
-    background-color: #000000;
-    font-size: medium;
-    font-family: 'dejavu_sans_monobook', monospace;
-    color:#ffffff;
-    scrollbar-width: none;
+  background-color: #000000;
+  font-size: medium;
+  font-family: 'dejavu_sans_monobook', monospace;
+  color: #ffffff;
+  scrollbar-width: none;
 }
 
 @media (min-width: 576px) {
-    div.nav {
-        width: 100%;
-        margin: auto;
-    }
+  div.nav {
+    width: 100%;
+    margin: auto;
+  }
 
-    body {
-        width: 90%;
-        margin: auto;
-    }
+  body {
+    width: 90%;
+    margin: auto;
+  }
 
-    img {
-        margin: 0 auto;
-    }
+  img {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 992px) {
-    div.nav {
-        width: 15%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        position: fixed;
-        padding-top: 20px;
-    }
-    body {
-        width: 45%;
-        margin: 0 auto;
-        padding: 0 20px 20px 20px;
-    }
+  div.nav {
+    width: 15%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    padding-top: 20px;
+  }
+
+  body {
+    width: 45%;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+  }
 }
 
 button {
-    background-color: transparent;
-    border: none;
-    color: #98E551;
-    font-family:'pxplus_ibm_vga8regular', monospace;
-  }
-
-button:hover {
-    text-decoration: underline;
+  background-color: transparent;
+  border: none;
+  color: #98E551;
+  font-family: 'pxplus_ibm_vga8regular', monospace;
 }
 
-h1, h2 {
-    font-family: 'pxplus_ibm_vga8regular', monospace;
+button:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2 {
+  font-family: 'pxplus_ibm_vga8regular', monospace;
 }
 
 a {
-    color: #B19EFF;
+  color: #B19EFF;
 }
 
 a:hover {
-    color: #6C56F5;
+  color: #6C56F5;
 }
 
 
-  
+
 header {
   margin-top: 28px;
   font-size: 19px;
-  color:#000000;
+  color: #000000;
   position: relative;
 }
 
@@ -93,39 +95,39 @@ h1.header-text {
   white-space: nowrap;
 }
 
-  div.box {
-    width: 100%;
-    height: 5px;
-  }
+div.box {
+  width: 100%;
+  height: 5px;
+}
 
-    div.red {
-      background-color: #aa654b;
-    }
-    
-    div.orange {
-      background-color: #c38369;
-    }
-    
-    div.grey {
-      background-color: #b9b48a;
-    }
-    
-    div.yellow {
-      background-color: #c3c65d;
-    }
-    
-    div.green {
-      background-color: #a3c66d;
-    }
-    
-    div.blue {
-      background-color: #75b7c3;
-    }
-    
-    div.purple {
-      background-color: #856ec3;
-    }
-    
-    div.indigo {
-      background-color: #654ebf;
-    }
+div.red {
+  background-color: #aa654b;
+}
+
+div.orange {
+  background-color: #c38369;
+}
+
+div.grey {
+  background-color: #b9b48a;
+}
+
+div.yellow {
+  background-color: #c3c65d;
+}
+
+div.green {
+  background-color: #a3c66d;
+}
+
+div.blue {
+  background-color: #75b7c3;
+}
+
+div.purple {
+  background-color: #856ec3;
+}
+
+div.indigo {
+  background-color: #654ebf;
+}
