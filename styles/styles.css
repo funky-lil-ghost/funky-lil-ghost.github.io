@@ -60,6 +60,7 @@ button {
   border: none;
   color: #98E551;
   font-family: 'pxplus_ibm_vga8regular', monospace;
+  font-size: small;
 }
 
 button:hover {
