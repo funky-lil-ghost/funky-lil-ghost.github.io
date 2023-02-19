@@ -85,12 +85,9 @@ header {
   position: fixed;
   margin-left: 20px;
   top: 0;
+  font-size: 19px;
+  color:#000000;
 }
-
-  div.header-text {
-    font-size: 19px;
-    color:#000000;
-  }
 
   div.box {
     width: 100%;
