@@ -77,52 +77,54 @@ a:hover {
     color: #6C56F5;
 }
 
-div.box {
-    width: 100%;
-    height: 5px;
-  }
+
   
-  header {
-    margin-top: 28px;
-    width: 100%;
-  }
-  
-  div.box-text {
+header {
+  margin-top: 28px;
+  width: 100%;
+  position: fixed;
+  margin-left: 20px;
+  top: 0;
+}
+
+  div.header-text {
     font-size: 19px;
-    position: fixed;
-    margin-left: 20px;
-    top: 0;
     color:#000000;
   }
 
-  div.red {
-    background-color: #aa654b;
+  div.box {
+    width: 100%;
+    height: 5px;
   }
-  
-  div.orange {
-    background-color: #c38369;
-  }
-  
-  div.grey {
-    background-color: #b9b48a;
-  }
-  
-  div.yellow {
-    background-color: #c3c65d;
-  }
-  
-  div.green {
-    background-color: #a3c66d;
-  }
-  
-  div.blue {
-    background-color: #75b7c3;
-  }
-  
-  div.purple {
-    background-color: #856ec3;
-  }
-  
-  div.indigo {
-    background-color: #654ebf;
-  }
+
+    div.red {
+      background-color: #aa654b;
+    }
+    
+    div.orange {
+      background-color: #c38369;
+    }
+    
+    div.grey {
+      background-color: #b9b48a;
+    }
+    
+    div.yellow {
+      background-color: #c3c65d;
+    }
+    
+    div.green {
+      background-color: #a3c66d;
+    }
+    
+    div.blue {
+      background-color: #75b7c3;
+    }
+    
+    div.purple {
+      background-color: #856ec3;
+    }
+    
+    div.indigo {
+      background-color: #654ebf;
+    }
