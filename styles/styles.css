@@ -88,8 +88,9 @@ header {
 
 h1.header-text {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -70%;
+  left: 1%;
+  white-space: nowrap;
 }
 
   div.box {
