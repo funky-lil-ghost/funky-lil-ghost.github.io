@@ -81,8 +81,6 @@ a:hover {
   
 header {
   margin-top: 28px;
-  position: fixed;
-  top: 0;
   font-size: 19px !important;
   color:#000000 !important;
 }
