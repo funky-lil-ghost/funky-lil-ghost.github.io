@@ -81,12 +81,10 @@ a:hover {
   
 header {
   margin-top: 28px;
-  width: 100%;
   position: fixed;
-  margin-left: 20px;
   top: 0;
-  font-size: 19px;
-  color:#000000;
+  font-size: 19px !important;
+  color:#000000 !important;
 }
 
   div.box {
