@@ -1,15 +1,4 @@
-const myImage = document.querySelector("img");
 
-myImage.onclick = () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/internet-mania.jpg") {
-    myImage.setAttribute("src", "images/forms.png");
-  } else {
-    myImage.setAttribute("src", "images/internet-mania.jpg");
-  }
-};
-
-let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
 function setUserName() {
@@ -27,7 +16,10 @@ function setUserName() {
   } else {
     const storedName = localStorage.getItem("name");
     myHeading.textContent = `hi ${storedName}`;
-  }  
+  }
+
+
+let myButton = document.querySelector("button");
 
   myButton.onclick = () => {
     setUserName();

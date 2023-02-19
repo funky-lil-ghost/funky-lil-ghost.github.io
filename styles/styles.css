@@ -80,7 +80,7 @@ a:hover {
 }
 
 iframe {
-  visibility: hidden;
+  display: none;
 }
 
 header {
