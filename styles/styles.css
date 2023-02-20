@@ -59,6 +59,15 @@ body {
   }
 }
 
+div.grid {
+  display: flex;
+}
+
+img.grid-img {
+  width: 50%;
+  margin: 2%;
+}
+
 button {
   background-color: transparent;
   border: none;
