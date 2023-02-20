@@ -98,6 +98,8 @@ div.box {
 
 div.grid {
   display: flex;
+  width: inherit;
+  min-width: inherit;
 }
 
 img {
