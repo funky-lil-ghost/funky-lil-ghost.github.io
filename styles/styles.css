@@ -22,10 +22,12 @@
 
   html {
     width: 100vw;
+    min-width: 100vw;
   }
 
   body {
     margin: 0;
+    width: 100vw;
     min-width: 100vw;
   }
 
