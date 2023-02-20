@@ -61,6 +61,7 @@ div.grid {
 
 img.grid-img {
   width: 50%;
+  height: auto;
   margin: 2%;
 }
 
