@@ -35,10 +35,12 @@ body {
   body {
     width: 100vw;
     margin: 0;
+    min-width: 100%;
   }
 
   div.grid {
     width: 100vw;
+    min-width: 100%;
   }
 }
 
