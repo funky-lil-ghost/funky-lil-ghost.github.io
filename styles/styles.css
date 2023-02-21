@@ -176,6 +176,11 @@ iframe {
   width: 0;
 }
 
-s {
+s,
+.done {
   color: #808080;
+}
+
+.todo {
+  color:#98E551;
 }
