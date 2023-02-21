@@ -131,44 +131,44 @@ header {
   position: relative;
 }
 
-  h1.header-text {
-    position: absolute;
-    top: -70%;
-    left: 1%;
-    white-space: nowrap;
-  }
+h1.header-text {
+  position: absolute;
+  top: -70%;
+  left: 1%;
+  white-space: nowrap;
+}
 
-  div.red {
-    background-color: #aa654b;
-  }
+div.red {
+  background-color: #aa654b;
+}
 
-  div.orange {
-    background-color: #c38369;
-  }
+div.orange {
+  background-color: #c38369;
+}
 
-  div.grey {
-    background-color: #b9b48a;
-  }
+div.grey {
+  background-color: #b9b48a;
+}
 
-  div.yellow {
-    background-color: #c3c65d;
-  }
+div.yellow {
+  background-color: #c3c65d;
+}
 
-  div.green {
-    background-color: #a3c66d;
-  }
+div.green {
+  background-color: #a3c66d;
+}
 
-  div.blue {
-    background-color: #75b7c3;
-  }
+div.blue {
+  background-color: #75b7c3;
+}
 
-  div.purple {
-    background-color: #856ec3;
-  }
+div.purple {
+  background-color: #856ec3;
+}
 
-  div.indigo {
-    background-color: #654ebf;
-  }
+div.indigo {
+  background-color: #654ebf;
+}
 
 iframe {
   display: none;
@@ -182,7 +182,7 @@ s,
 }
 
 .todo {
-  color:#98E551;
+  color: #98E551;
 }
 
 .sparkle {
