@@ -184,3 +184,11 @@ s,
 .todo {
   color:#98E551;
 }
+
+.sparkle {
+  cursor: url(../images/sparkle.png), auto;
+}
+
+.etho {
+  cursor: url(../images/ethoslab.png), auto;
+}
