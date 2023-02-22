@@ -41,7 +41,7 @@
     left: 0;
     min-width: 20%;
     top: 0;
-    position: fixed;
+    position: absolute;
     padding-top: 20px;
     white-space: wrap;
     overflow: hidden;
