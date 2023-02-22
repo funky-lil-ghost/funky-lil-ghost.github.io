@@ -33,7 +33,7 @@ html {
   width: 100%;
 }
 
-body {
+.content {
   width: 50%;
   min-width: 50%;
   max-width: 50%;
@@ -41,7 +41,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
+  .content {
     margin: 0 auto;
     min-width: 100%;
     max-width: 100%;
@@ -71,7 +71,7 @@ button:hover {
 /* || header || */
 
 header {
-  margin-top: 28px;
+  margin-top: 10px;
   font-size: 19px;
   color: #000000;
   position: relative;
@@ -79,7 +79,7 @@ header {
 
 .header-text {
   position: absolute;
-  top: -70%;
+  top: -65%;
   left: 1%;
   white-space: nowrap;
 }
@@ -131,25 +131,50 @@ iframe {
   width: 0;
 }
 
+.block {
+  display: inline-block;
+}
+
 .nav {
-  width: 25%;
-  height: 100%;
-  left: 0;
-  min-width: 20%;
-  top: 0;
+  width: max-content;
+  font-size: medium;
   position: absolute;
-  padding-top: 20px;
-  white-space: normal;
-  overflow: hidden;
+  margin-top: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  background: #000000;
+  position: absolute;
+  padding: 5px 20px 5px 5px;
+  width: auto;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  inline-size: max-content;
+  padding: 3% 5%;
 }
 
 @media (max-width: 768px) {
-  .nav {
-    margin: 0;
-    min-width: 100%;
-    position: relative;
-    width: 100%;
+  .dropdown {
+    display: inline-block;
   }
+
+  .nav {
+    position: relative;
+  }
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* || image gallery || */
@@ -184,8 +209,13 @@ iframe {
 
 /* || text || */
 
-a {
+a,
+.link-mimic {
   color: #B19EFF;
+}
+
+.link-mimic {
+  text-decoration: underline;
 }
 
 a:hover {
