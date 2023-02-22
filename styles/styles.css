@@ -34,15 +34,15 @@
 }
 
 @media (min-width: 992px) {
-  div.nav {
-    width: 20%;
+  .nav {
+    width: 25%;
     height: 100%;
     left: 0;
     min-width: 20%;
     top: 0;
     position: fixed;
     padding-top: 20px;
-    white-space: nowrap;
+    white-space: wrap;
     overflow: hidden;
   }
 
