@@ -175,8 +175,13 @@ iframe {
 }
 
 s,
+.done + ul {
+  color: #808080;
+}
+
 .done {
   color: #808080;
+  text-decoration: line-through;  
 }
 
 .todo {
