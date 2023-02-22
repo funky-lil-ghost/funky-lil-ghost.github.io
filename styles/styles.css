@@ -36,16 +36,16 @@ html {
 body {
   width: 50%;
   min-width: 50%;
+  max-width: 50%;
   margin: 0 auto;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 768px) {
   body {
     margin: 0 auto;
     min-width: 100%;
     max-width: 100%;
     width: 100%;
-    overflow-wrap: anywhere;
   }
 }
 
@@ -143,10 +143,11 @@ iframe {
   overflow: hidden;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 768px) {
   .nav {
     margin: 0;
     min-width: 100%;
+    position: relative;
     width: 100%;
   }
 }
@@ -159,7 +160,7 @@ iframe {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-@media (min-width: 576px) {
+@media (max-width: 768px) {
   .gallery-container {
     display: block;
   }
