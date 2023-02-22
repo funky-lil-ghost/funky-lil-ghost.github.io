@@ -108,7 +108,7 @@ img {
 .gallery-container {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .item {
@@ -174,17 +174,45 @@ iframe {
   width: 0;
 }
 
+ul {
+  list-style: square;
+  line-height: 190%;
+}
+
+ul>ul>li {
+  line-height: normal;
+}
+
 s,
-.done + ul {
+.done+ul {
   color: #808080;
 }
 
 .done {
   color: #808080;
-  text-decoration: line-through;  
+  text-decoration: line-through;
 }
 
+.done,
 .todo {
+  list-style: none;
+}
+
+.done>a,
+.done+ul>li>a {
+  color: #4e4e4e;
+}
+
+.done:before,
+.todo:before {
+  content: "\25AA";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.todo:before {
   color: #98E551;
 }
 
