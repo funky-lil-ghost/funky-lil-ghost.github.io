@@ -16,7 +16,7 @@
   font-style: normal;
 }
 
-/* || general page styling || */
+/* || general || */
 
 .wrapper {
   margin: 2%;
@@ -66,6 +66,119 @@ button {
 
 button:hover {
   text-decoration: underline;
+}
+
+/* || header || */
+
+header {
+  margin-top: 28px;
+  font-size: 19px;
+  color: #000000;
+  position: relative;
+}
+
+.header-text {
+  position: absolute;
+  top: -70%;
+  left: 1%;
+  white-space: nowrap;
+}
+
+/* header: colorboxes */
+
+.box {
+  width: 100%;
+  height: 5px;
+}
+
+.red {
+  background-color: #aa654b;
+}
+
+.orange {
+  background-color: #c38369;
+}
+
+.grey {
+  background-color: #b9b48a;
+}
+
+.yellow {
+  background-color: #c3c65d;
+}
+
+.green {
+  background-color: #a3c66d;
+}
+
+.blue {
+  background-color: #75b7c3;
+}
+
+.purple {
+  background-color: #856ec3;
+}
+
+.indigo {
+  background-color: #654ebf;
+}
+
+/* || nav || */
+
+iframe {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.nav {
+  width: 25%;
+  height: 100%;
+  left: 0;
+  min-width: 20%;
+  top: 0;
+  position: absolute;
+  padding-top: 20px;
+  white-space: wrap;
+  overflow: hidden;
+}
+
+@media (min-width: 576px) {
+  .nav {
+    margin: 0;
+    min-width: 100%;
+    width: 100%;
+  }
+}
+
+/* || image gallery || */
+
+.gallery-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+@media (min-width: 576px) {
+  .gallery-container {
+    display: block;
+  }
+}
+
+.item {
+  height: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+/* || cursors || */
+
+.sparkle {
+  cursor: url(../images/sparkle.png), auto;
+}
+
+.etho {
+  cursor: url(../images/ethoslab.png), auto;
 }
 
 /* || text || */
@@ -126,117 +239,4 @@ s,
 
 .todo:before {
   color: #98E551;
-}
-
-/* header */
-
-header {
-  margin-top: 28px;
-  font-size: 19px;
-  color: #000000;
-  position: relative;
-}
-
-.header-text {
-  position: absolute;
-  top: -70%;
-  left: 1%;
-  white-space: nowrap;
-}
-
-/* header: colorboxes */
-
-.box {
-  width: 100%;
-  height: 5px;
-}
-
-.red {
-  background-color: #aa654b;
-}
-
-.orange {
-  background-color: #c38369;
-}
-
-.grey {
-  background-color: #b9b48a;
-}
-
-.yellow {
-  background-color: #c3c65d;
-}
-
-.green {
-  background-color: #a3c66d;
-}
-
-.blue {
-  background-color: #75b7c3;
-}
-
-.purple {
-  background-color: #856ec3;
-}
-
-.indigo {
-  background-color: #654ebf;
-}
-
-/* nav */
-
-iframe {
-  display: none;
-  height: 0;
-  width: 0;
-}
-
-.nav {
-  width: 25%;
-  height: 100%;
-  left: 0;
-  min-width: 20%;
-  top: 0;
-  position: absolute;
-  padding-top: 20px;
-  white-space: wrap;
-  overflow: hidden;
-}
-
-@media (min-width: 576px) {
-  .nav {
-    margin: 0;
-    min-width: 100%;
-    width: 100%;
-  }
-}
-
-/* image gallery */
-
-.gallery-container {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-@media (min-width: 576px) {
-  .gallery-container {
-    display: block;
-  }
-}
-
-.item {
-  height: auto;
-  width: 90%;
-  padding: 10px;
-}
-
-/* cursors */
-
-.sparkle {
-  cursor: url(../images/sparkle.png), auto;
-}
-
-.etho {
-  cursor: url(../images/ethoslab.png), auto;
 }
