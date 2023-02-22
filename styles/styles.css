@@ -271,3 +271,11 @@ s,
 .todo:before {
   color: #98E551;
 }
+
+/* hide cat header on mobile :( */
+
+@media (max-width: 768px) {
+  .nl {
+      display: none;
+    }
+  } 
