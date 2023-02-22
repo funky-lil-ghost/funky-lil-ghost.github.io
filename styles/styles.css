@@ -1,3 +1,5 @@
+/* fonts */
+
 @font-face {
   font-family: 'pxplus_ibm_vga8regular';
   src: url(https://funky-lil-ghost.github.io/fonts/IBM_VGA8/pxplus_ibm_vga8-webfont.woff2) format('woff2'),
@@ -14,44 +16,12 @@
   font-style: normal;
 }
 
-@media (min-width: 576px) {
-  .nav {
-    margin: 0;
-    min-width: 100%;
-    width: 100%;
-  }
+/* || general page styling || */
 
-  body {
-    margin: 0 auto;
-    min-width: 100%;
-    max-width: 100%;
-    width: 100%;
-    overflow-wrap: anywhere;
-  }
-
-  .gallery-container {
-    display: block;
-  }
-}
-
-@media (min-width: 992px) {
-  .nav {
-    width: 25%;
-    height: 100%;
-    left: 0;
-    min-width: 20%;
-    top: 0;
-    position: absolute;
-    padding-top: 20px;
-    white-space: wrap;
-    overflow: hidden;
-  }
-
-  body {
-    width: 50%;
-    min-width: 50%;
-    margin: 0 auto;
-  }
+.wrapper {
+  margin: 2%;
+  min-width: 95%;
+  width: 95%;
 }
 
 html {
@@ -63,18 +33,26 @@ html {
   width: 100%;
 }
 
-div.wrapper {
-  margin: 2%;
-  min-width: 95%;
-  width: 95%;
+body {
+  width: 50%;
+  min-width: 50%;
+  margin: 0 auto;
 }
 
-a {
-  color: #B19EFF;
+@media (min-width: 576px) {
+  body {
+    margin: 0 auto;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    overflow-wrap: anywhere;
+  }
 }
 
-a:hover {
-  color: #6C56F5;
+img {
+  display: block;
+  width: 50%;
+  height: 50%;
 }
 
 button {
@@ -90,31 +68,14 @@ button:hover {
   text-decoration: underline;
 }
 
-body {
-  background-color: #000000;
+/* || text || */
+
+a {
+  color: #B19EFF;
 }
 
-div.box {
-  width: 100%;
-  height: 5px;
-}
-
-img {
-  display: block;
-  width: 50%;
-  height: 50%;
-}
-
-.gallery-container {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-.item {
-  height: auto;
-  width: 90%;
-  padding: 10px;
+a:hover {
+  color: #6C56F5;
 }
 
 h1,
@@ -122,57 +83,7 @@ h2 {
   font-family: 'pxplus_ibm_vga8regular', monospace;
 }
 
-header {
-  margin-top: 28px;
-  font-size: 19px;
-  color: #000000;
-  position: relative;
-}
-
-h1.header-text {
-  position: absolute;
-  top: -70%;
-  left: 1%;
-  white-space: nowrap;
-}
-
-div.red {
-  background-color: #aa654b;
-}
-
-div.orange {
-  background-color: #c38369;
-}
-
-div.grey {
-  background-color: #b9b48a;
-}
-
-div.yellow {
-  background-color: #c3c65d;
-}
-
-div.green {
-  background-color: #a3c66d;
-}
-
-div.blue {
-  background-color: #75b7c3;
-}
-
-div.purple {
-  background-color: #856ec3;
-}
-
-div.indigo {
-  background-color: #654ebf;
-}
-
-iframe {
-  display: none;
-  height: 0;
-  width: 0;
-}
+/* lists */
 
 ul {
   list-style: square;
@@ -183,19 +94,15 @@ ul>ul>li {
   line-height: normal;
 }
 
-s,
-.done+ul {
-  color: #808080;
-}
+/* lists: special */
 
 .done {
-  color: #808080;
   text-decoration: line-through;
 }
 
-.done,
-.todo {
-  list-style: none;
+s,
+.done {
+  color: #808080;
 }
 
 .done>a,
@@ -203,7 +110,12 @@ s,
   color: #4e4e4e;
 }
 
-.done:before,
+/* lists: colored bullets */
+
+.todo {
+  list-style: none;
+}
+
 .todo:before {
   content: "\25AA";
   font-weight: bold;
@@ -215,6 +127,111 @@ s,
 .todo:before {
   color: #98E551;
 }
+
+/* header */
+
+header {
+  margin-top: 28px;
+  font-size: 19px;
+  color: #000000;
+  position: relative;
+}
+
+.header-text {
+  position: absolute;
+  top: -70%;
+  left: 1%;
+  white-space: nowrap;
+}
+
+/* header: colorboxes */
+
+.box {
+  width: 100%;
+  height: 5px;
+}
+
+.red {
+  background-color: #aa654b;
+}
+
+.orange {
+  background-color: #c38369;
+}
+
+.grey {
+  background-color: #b9b48a;
+}
+
+.yellow {
+  background-color: #c3c65d;
+}
+
+.green {
+  background-color: #a3c66d;
+}
+
+.blue {
+  background-color: #75b7c3;
+}
+
+.purple {
+  background-color: #856ec3;
+}
+
+.indigo {
+  background-color: #654ebf;
+}
+
+/* nav */
+
+iframe {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.nav {
+  width: 25%;
+  height: 100%;
+  left: 0;
+  min-width: 20%;
+  top: 0;
+  position: absolute;
+  padding-top: 20px;
+  white-space: wrap;
+  overflow: hidden;
+}
+
+@media (min-width: 576px) {
+  .nav {
+    margin: 0;
+    min-width: 100%;
+    width: 100%;
+  }
+}
+
+/* image gallery */
+
+.gallery-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+@media (min-width: 576px) {
+  .gallery-container {
+    display: block;
+  }
+}
+
+.item {
+  height: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+/* cursors */
 
 .sparkle {
   cursor: url(../images/sparkle.png), auto;
