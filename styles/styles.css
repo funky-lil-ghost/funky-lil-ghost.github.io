@@ -22,17 +22,11 @@
   }
 
   body {
-    margin: 0;
+    margin: 0 auto;
     min-width: 100%;
     max-width: 100%;
     width: 100%;
     overflow-wrap: anywhere;
-  }
-
-  div.grid {
-    width: 100%;
-    min-width: 100%;
-    max-width: 100%;
   }
 }
 
