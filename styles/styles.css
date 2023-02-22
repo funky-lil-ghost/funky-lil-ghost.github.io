@@ -245,7 +245,8 @@ ul>ul>li {
 }
 
 s,
-.done {
+.done,
+.done+ul {
   color: #808080;
 }
 
