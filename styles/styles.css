@@ -28,6 +28,10 @@
     width: 100%;
     overflow-wrap: anywhere;
   }
+
+  .gallery-container {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
@@ -95,31 +99,28 @@ div.box {
   height: 5px;
 }
 
-div.grid {
-  display: flex;
-  width: inherit;
-  min-width: inherit;
-}
-
 img {
   display: block;
   width: 50%;
   height: 50%;
 }
 
-img.grid-img {
-  display: block;
-  width: 50%;
-  height: 50%;
-  margin: 2%;
+.gallery-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+
+.item {
+  height: auto;
+  width: 90%;
+  padding: 10px;
 }
 
 h1,
 h2 {
   font-family: 'pxplus_ibm_vga8regular', monospace;
 }
-
-
 
 header {
   margin-top: 28px;
