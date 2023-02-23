@@ -19,14 +19,14 @@
 /* || general || */
 
 .wrapper {
-  margin: 2%;
-  min-width: 95%;
-  width: 95%;
+  margin: 0%;
+  min-width: 100%;
+  width: 100%;
 }
 
 html {
   background-color: #000000;
-  font-size: medium;
+  font-size: small;
   font-family: 'dejavu_sans_monobook', monospace;
   color: #ffffff;
   scrollbar-width: none;
@@ -34,9 +34,9 @@ html {
 }
 
 .content {
-  width: 50%;
-  min-width: 50%;
-  max-width: 50%;
+  width: 45%;
+  min-width: 45%;
+  max-width: 45%;
   margin: 0 auto;
 }
 
@@ -60,7 +60,7 @@ button {
   border: none;
   color: #98E551;
   font-family: 'pxplus_ibm_vga8regular', monospace;
-  font-size: small;
+  font-size: medium;
   cursor: pointer;
 }
 
@@ -82,6 +82,7 @@ header {
   top: -65%;
   left: 1%;
   white-space: nowrap;
+  margin-bottom: 5px;
 }
 
 /* header: colorboxes */
@@ -131,21 +132,19 @@ iframe {
   width: 0;
 }
 
-.block {
-  display: inline-block;
-}
-
 .nav {
-  width: max-content;
+  width: 100%;
   font-size: medium;
-  position: absolute;
-  margin-top: 20px;
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: max-content max-content auto max-content;
 }
 
-.dropdown {
-  position: relative;
-  display: block;
-  cursor: pointer;
+.nav-btn::after {
+  content: '/';
+  color: #98E551;
+  font-family: 'pxplus_ibm_vga8regular', monospace;
+  font-size: small;
 }
 
 .dropdown-content {
@@ -161,16 +160,6 @@ iframe {
   display: block;
   inline-size: max-content;
   padding: 3% 5%;
-}
-
-@media (max-width: 768px) {
-  .dropdown {
-    display: inline-block;
-  }
-
-  .nav {
-    position: relative;
-  }
 }
 
 .dropdown:hover .dropdown-content {
@@ -198,6 +187,10 @@ iframe {
 }
 
 /* || cursors || */
+
+.pointer {
+  cursor: pointer;
+}
 
 .sparkle {
   cursor: url(../images/sparkle.png), auto;
@@ -271,4 +264,26 @@ s,
 
 .todo:before {
   color: #98E551;
+}
+
+.top-left-square {
+  width: 25px;
+  height: 23px;
+  background-color: #000000;
+  border-bottom-right-radius: 30%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 998;
+}
+
+.top-left-square-2 {
+  width: 20px;
+  height: 18px;
+  background-color: #301e79;
+  border-bottom-right-radius: 30%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
