@@ -19,7 +19,7 @@ function setUserName() {
   }
 
 
-let myButton = document.querySelector("button");
+let myButton = document.querySelector("button.changeuser");
 
   myButton.onclick = () => {
     setUserName();
