@@ -72,14 +72,14 @@ button:hover {
 
 header {
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 19px;
   color: #000000;
   position: relative;
 }
 
 .header-text {
   position: absolute;
-  top: -65%;
+  top: -69%;
   left: 1%;
   white-space: nowrap;
   margin-bottom: 5px;
