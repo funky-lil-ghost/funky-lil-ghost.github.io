@@ -81,7 +81,7 @@ header {
 .header-text {
   position: absolute;
   top: -69%;
-  left: 1%;
+  left: 5px;
   white-space: nowrap;
   margin-bottom: 5px;
 }
