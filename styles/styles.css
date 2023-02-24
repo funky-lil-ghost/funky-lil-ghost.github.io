@@ -80,7 +80,7 @@ header {
 
 .header-text {
   position: absolute;
-  top: -69%;
+  top: -26px;
   left: 5px;
   white-space: nowrap;
   margin-bottom: 5px;
