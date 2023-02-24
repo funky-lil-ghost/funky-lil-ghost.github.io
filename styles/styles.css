@@ -62,6 +62,7 @@ button {
   font-family: 'pxplus_ibm_vga8regular', monospace;
   font-size: medium;
   cursor: pointer;
+  padding: 0;
 }
 
 button:hover {
