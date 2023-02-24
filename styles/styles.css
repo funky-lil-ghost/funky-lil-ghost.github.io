@@ -134,10 +134,11 @@ iframe {
 
 .nav {
   width: 100%;
-  font-size: medium;
+  font-size: small;
   position: relative;
   display: inline-grid;
   grid-template-columns: max-content max-content auto max-content;
+  padding-top: 3px;
 }
 
 .nav-btn::after {
