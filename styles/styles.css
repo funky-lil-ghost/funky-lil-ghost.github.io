@@ -272,7 +272,7 @@ s,
   height: 23px;
   background-color: #000000;
   border-bottom-right-radius: 30%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 998;
@@ -283,7 +283,7 @@ s,
   height: 18px;
   background-color: #301e79;
   border-bottom-right-radius: 30%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 999;
