@@ -232,8 +232,6 @@ ul>ul>li {
   line-height: normal;
 }
 
-/* lists: special */
-
 .done {
   text-decoration: line-through;
 }
@@ -266,6 +264,8 @@ s,
 .todo:before {
   color: #98E551;
 }
+
+/* || utilities || */
 
 .top-left-square {
   width: 25px;
