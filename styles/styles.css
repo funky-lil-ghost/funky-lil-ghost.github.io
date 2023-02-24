@@ -26,7 +26,7 @@
 
 html {
   background-color: #000000;
-  font-size: small;
+  font-size: 14px;
   font-family: 'dejavu_sans_monobook', monospace;
   color: #ffffff;
   scrollbar-width: none;
@@ -134,7 +134,7 @@ iframe {
 
 .nav {
   width: 100%;
-  font-size: small;
+  font-size: 14px;
   position: relative;
   display: inline-grid;
   grid-template-columns: max-content max-content auto max-content;
@@ -145,7 +145,7 @@ iframe {
   content: '/';
   color: #98E551;
   font-family: 'pxplus_ibm_vga8regular', monospace;
-  font-size: small;
+  font-size: 14px;
 }
 
 .dropdown-content {
